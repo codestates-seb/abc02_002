@@ -1,0 +1,728 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "영화매니아_1",
+      "email": "user1@example.com"
+    },
+    {
+      "id": 2,
+      "username": "시네마라이프",
+      "email": "user2@example.com"
+    },
+    {
+      "id": 3,
+      "username": "포플렉스_고수",
+      "email": "user3@example.com"
+    },
+    {
+      "id": 4,
+      "username": "영화광_89",
+      "email": "user4@example.com"
+    },
+    {
+      "id": 5,
+      "username": "실버스크린팬",
+      "email": "user5@example.com"
+    },
+    {
+      "id": 6,
+      "username": "할리우드매직",
+      "email": "user6@example.com"
+    },
+    {
+      "id": 7,
+      "username": "영화매니아_007",
+      "email": "user7@example.com"
+    },
+    {
+      "id": 8,
+      "username": "시네마매직123",
+      "email": "user8@example.com"
+    },
+    {
+      "id": 9,
+      "username": "필름광_101",
+      "email": "user9@example.com"
+    },
+    {
+      "id": 10,
+      "username": "시네마어드벤처러",
+      "email": "user10@example.com"
+    },
+    {
+      "id": 11,
+      "username": "배부른호랑이",
+      "email": "user11@example.com"
+    },
+    {
+      "id": 12,
+      "username": "행복한사자",
+      "email": "user12@example.com"
+    },
+    {
+      "id": 13,
+      "username": "기분좋은곰돌이",
+      "email": "user13@example.com"
+    },
+    {
+      "id": 14,
+      "username": "신나는토끼",
+      "email": "user14@example.com"
+    },
+    {
+      "id": 15,
+      "username": "웃는강아지",
+      "email": "user15@example.com"
+    },
+    {
+      "id": 16,
+      "username": "열정적인다람쥐",
+      "email": "user16@example.com"
+    },
+    {
+      "id": 17,
+      "username": "성실한하마",
+      "email": "user17@example.com"
+    },
+    {
+      "id": 18,
+      "username": "지루한앵무새",
+      "email": "user18@example.com"
+    },
+    {
+      "id": 19,
+      "username": "깜짝놀란거북이",
+      "email": "user19@example.com"
+    },
+    {
+      "id": 20,
+      "username": "자유로운나무늘보",
+      "email": "user20@example.com"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "userId": 1,
+      "movieId": 1,
+      "comment": "정말 멋진 영화!",
+      "rating": 4
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "movieId": 2,
+      "comment": "한번 더 보고 싶어요.",
+      "rating": 5
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "movieId": 3,
+      "comment": "내 취향이 아니었어요.",
+      "rating": 2
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "movieId": 4,
+      "comment": "연기가 훌륭했습니다.",
+      "rating": 4
+    },
+    {
+      "id": 5,
+      "userId": 3,
+      "movieId": 5,
+      "comment": "감동적인 영화였어요.",
+      "rating": 5
+    },
+    {
+      "id": 6,
+      "userId": 4,
+      "movieId": 1,
+      "comment": "즐거운 시간이었어요.",
+      "rating": 5
+    },
+    {
+      "id": 7,
+      "userId": 5,
+      "movieId": 2,
+      "comment": "감동적인 스토리에 눈물난다.",
+      "rating": 5
+    },
+    {
+      "id": 8,
+      "userId": 6,
+      "movieId": 3,
+      "comment": "좋은 연출이었어요.",
+      "rating": 4
+    },
+    {
+      "id": 9,
+      "userId": 7,
+      "movieId": 4,
+      "comment": "아쉬웠던 부분도 있었지만 좋았어요.",
+      "rating": 3
+    },
+    {
+      "id": 10,
+      "userId": 8,
+      "movieId": 5,
+      "comment": "마음에 와닿는 영화였어요.",
+      "rating": 4
+    },
+    {
+      "id": 11,
+      "userId": 13,
+      "movieId": 1,
+      "comment": "몰입감이 좋았습니다.",
+      "rating": 4
+    },
+    {
+      "id": 12,
+      "userId": 16,
+      "movieId": 2,
+      "comment": "흥미로운 스토리텔링이었어요.",
+      "rating": 5
+    },
+    {
+      "id": 13,
+      "userId": 16,
+      "movieId": 3,
+      "comment": "음악이 인상적이었습니다.",
+      "rating": 3
+    },
+    {
+      "id": 14,
+      "userId": 20,
+      "movieId": 4,
+      "comment": "대사가 좋았어요.",
+      "rating": 4
+    },
+    {
+      "id": 15,
+      "userId": 19,
+      "movieId": 5,
+      "comment": "재미있는 영화였어요.",
+      "rating": 4
+    },
+    {
+      "id": 46,
+      "userId": 19,
+      "movieId": 1,
+      "comment": "좋은 시간 보냈습니다.",
+      "rating": 4
+    },
+    {
+      "id": 47,
+      "userId": 17,
+      "movieId": 2,
+      "comment": "전개가 조금 아쉬웠어요.",
+      "rating": 3
+    },
+    {
+      "id": 48,
+      "userId": 11,
+      "movieId": 3,
+      "comment": "영화 분위기가 좋았어요.",
+      "rating": 4
+    },
+    {
+      "id": 49,
+      "userId": 15,
+      "movieId": 4,
+      "comment": "연기력이 뛰어난 영화였어요.",
+      "rating": 5
+    },
+    {
+      "id": 50,
+      "userId": 9,
+      "movieId": 5,
+      "comment": "진한 여운이 남는 영화였어요.",
+      "rating": 4
+    },
+    {
+      "id": 51,
+      "userId": 14,
+      "movieId": 5,
+      "comment": "꿈 속에서도 계속 생각나는 영화!",
+      "rating": 5
+    },
+    {
+      "id": 52,
+      "userId": 14,
+      "movieId": 2,
+      "comment": "여운이 많이 남는 영화였어요.",
+      "rating": 4
+    },
+    {
+      "id": 53,
+      "userId": 17,
+      "movieId": 3,
+      "comment": "기대 이상이었습니다.",
+      "rating": 4
+    },
+    {
+      "id": 54,
+      "userId": 19,
+      "movieId": 4,
+      "comment": "나를 미쳐버릴 것 같은 영화!",
+      "rating": 5
+    },
+    {
+      "id": 55,
+      "userId": 7,
+      "movieId": 4,
+      "comment": "이런 영화를 기다렸어요.",
+      "rating": 5
+    },
+    {
+      "id": 96,
+      "userId": 4,
+      "movieId": 1,
+      "comment": "감동을 주는 멋진 영화였어요.",
+      "rating": 5
+    },
+    {
+      "id": 97,
+      "userId": 14,
+      "movieId": 4,
+      "comment": "영상미가 훌륭한 영화였어요.",
+      "rating": 4
+    },
+    {
+      "id": 98,
+      "userId": 14,
+      "movieId": 1,
+      "comment": "분위기가 좋았습니다.",
+      "rating": 4
+    },
+    {
+      "id": 99,
+      "userId": 16,
+      "movieId": 4,
+      "comment": "기대 이상이었습니다.",
+      "rating": 4
+    },
+    {
+      "id": 100,
+      "userId": 3,
+      "movieId": 5,
+      "comment": "감정을 자극하는 영화였어요.",
+      "rating": 4
+    },
+    {
+      "id": 459.1794589853653,
+      "userId": 1,
+      "movieId": "1",
+      "comment": "나 이거 진짜 인생영화에요...",
+      "rating": 4.5
+    },
+    {
+      "id": 672.8182937506253,
+      "userId": 1,
+      "movieId": "1",
+      "comment": "그냥 저냥 볼만 했어요...명성보단 별로인듯...",
+      "rating": 2
+    },
+    {
+      "id": 668.9015015658282,
+      "userId": 1,
+      "movieId": "1",
+      "comment": "인생 영화긴 한데 이거 코멘트 몇번 작성해야 됩니까?",
+      "rating": 4
+    },
+    {
+      "id": 379.73503011575514,
+      "userId": 1,
+      "movieId": "1",
+      "comment": "",
+      "rating": 0
+    },
+    {
+      "id": 585.6966427832571,
+      "userId": 1,
+      "movieId": "1",
+      "comment": "정말 재미있어요!! 진짜 재밌다니깐~",
+      "rating": 4
+    },
+    {
+      "id": 828.3216128099511,
+      "userId": 1,
+      "movieId": "1",
+      "comment": "",
+      "rating": 0
+    },
+    {
+      "id": 883.472445184777,
+      "userId": 1,
+      "movieId": "1",
+      "comment": "w",
+      "rating": 3
+    },
+    {
+      "id": 727.0088743337037,
+      "userId": 1,
+      "movieId": "1",
+      "comment": "나 이 영화 진짜 좋아하는데...기분이다 5점 줄게요",
+      "rating": 5
+    },
+    {
+      "id": 626.3746446776966,
+      "userId": 1,
+      "movieId": "1",
+      "comment": "나 오늘 기분입니다 5점 준다!",
+      "rating": 0
+    },
+    {
+      "id": 574.4025154477886,
+      "userId": 1,
+      "movieId": "1",
+      "comment": "아 왜 업데이트 안돼",
+      "rating": 0
+    },
+    {
+      "id": 57.00503509065502,
+      "userId": 1,
+      "movieId": "1",
+      "comment": "업데이트를 해보자 이야이야호",
+      "rating": 0
+    },
+    {
+      "id": 807.4241553532875,
+      "userId": 1,
+      "movieId": "1",
+      "comment": "야!!!",
+      "rating": 1
+    },
+    {
+      "id": 400.13635374036306,
+      "userId": 1,
+      "movieId": "1",
+      "comment": "어.............",
+      "rating": 0
+    },
+    {
+      "id": 688.100435100033,
+      "userId": 1,
+      "movieId": "1",
+      "comment": "히히",
+      "rating": 4
+    },
+    {
+      "id": 459.2595863403934,
+      "userId": 1,
+      "movieId": "1",
+      "comment": "s",
+      "rating": 0
+    },
+    {
+      "id": 111.69133760813254,
+      "userId": 1,
+      "movieId": "1",
+      "comment": "qwert",
+      "rating": 0
+    },
+    {
+      "id": 710.1330593263226,
+      "userId": 1,
+      "movieId": "1",
+      "comment": "ㄴㄴㄴ",
+      "rating": 0
+    },
+    {
+      "id": 638.0403088592359,
+      "userId": 1,
+      "movieId": "1",
+      "comment": "sgrgegre",
+      "rating": 0
+    },
+    {
+      "id": 430.4736222517549,
+      "userId": 1,
+      "movieId": "1",
+      "comment": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+      "rating": 4.5
+    },
+    {
+      "id": 546.1292747514674,
+      "userId": 1,
+      "movieId": "1",
+      "comment": "아놔 진짜",
+      "rating": 3.5
+    },
+    {
+      "id": 44.42286583799127,
+      "userId": 1,
+      "movieId": "1",
+      "comment": "완벽 갓.",
+      "rating": 5
+    },
+    {
+      "id": 655.5023318736502,
+      "userId": 1,
+      "movieId": "1",
+      "comment": "진짜 마지막 코멘트다...이거 진짜 재밌음 진짜 진짜루",
+      "rating": 4
+    },
+    {
+      "id": 695.2940568570314,
+      "userId": 1,
+      "movieId": "1",
+      "comment": "진짜 마지막 코멘트다...이거 진짜 재밌음 진짜 진짜루",
+      "rating": 0
+    },
+    {
+      "id": 693.862873859408,
+      "userId": 1,
+      "movieId": "1",
+      "comment": "진짜 마지막 코멘트다...이거 진짜 재밌음 진짜 진짜루",
+      "rating": 0
+    },
+    {
+      "id": 31.491164267178682,
+      "userId": 1,
+      "movieId": "1",
+      "comment": "ㄴㄴㄴㄴㄴㄴㄴ",
+      "rating": 0
+    },
+    {
+      "id": 396.5975343812331,
+      "userId": 1,
+      "movieId": "1",
+      "comment": "ssssss",
+      "rating": 0
+    },
+    {
+      "id": 701.6693969578205,
+      "userId": 1,
+      "movieId": "1",
+      "comment": "ssssss",
+      "rating": 4
+    },
+    {
+      "id": 645.1335488834691,
+      "userId": 1,
+      "movieId": "1",
+      "comment": "ssssss",
+      "rating": 0
+    },
+    {
+      "id": 682.5884246390355,
+      "userId": 1,
+      "movieId": "1",
+      "comment": "SS",
+      "rating": 0
+    },
+    {
+      "id": 392.6492254791516,
+      "userId": 1,
+      "movieId": "1",
+      "comment": "SS",
+      "rating": 0
+    },
+    {
+      "id": 997.8229055623356,
+      "userId": 1,
+      "movieId": "1",
+      "comment": "SS",
+      "rating": 0
+    },
+    {
+      "id": 817.8784624454827,
+      "userId": 1,
+      "movieId": "1",
+      "comment": "재밌음.",
+      "rating": 0
+    },
+    {
+      "id": 251.80536778047457,
+      "userId": 1,
+      "movieId": "1",
+      "comment": "나의 코멘트",
+      "rating": 0
+    },
+    {
+      "id": 928.368139647821,
+      "userId": 1,
+      "movieId": "1",
+      "comment": "나의 코멘투2",
+      "rating": 3
+    },
+    {
+      "id": 564.5708380402779,
+      "userId": 1,
+      "movieId": "4",
+      "comment": "솔직히 기대 안하고 봤는데 너무 재밌었음...여자 주인공들이 너무 매력적임!",
+      "rating": 4
+    },
+    {
+      "id": 232.95834401074677,
+      "userId": 1,
+      "movieId": "3",
+      "comment": "생각했던것보다 너무 너무 좋았던 영화...전체적으로 사랑에 대하여 말하고 있다...종을 초월하는 무한한 사랑...",
+      "rating": 4.5
+    },
+    {
+      "id": 59.200136132934624,
+      "userId": 1,
+      "movieId": "4",
+      "comment": "이건 테스트용 별점! 솔직히 정말 재밌었다 4점 이상임 ;;;",
+      "rating": 3
+    },
+    {
+      "id": 571.3436960685889,
+      "userId": 1,
+      "movieId": "4",
+      "comment": "이건 테스트용 별점! 솔직히 정말 재밌었다 4점 이상임 ;;;",
+      "rating": 3
+    },
+    {
+      "id": 342.940663305078,
+      "userId": 1,
+      "movieId": "4",
+      "comment": "이건 테스트용 별점! 솔직히 정말 재밌었다 4점 이상임 ;;;",
+      "rating": 3
+    },
+    {
+      "id": 149.10219779002952,
+      "userId": 1,
+      "movieId": "4",
+      "comment": "이건 테스트용 별점! 솔직히 정말 재밌었다 4점 이상임 ;;;",
+      "rating": 3
+    },
+    {
+      "id": 201.94917902370557,
+      "userId": 1,
+      "movieId": "2",
+      "comment": "델마와 루이스 너무너무 재밌다...제 인생 영화 입니다",
+      "rating": 4.5
+    },
+    {
+      "id": 693.9838403854284,
+      "userId": 1,
+      "movieId": "5",
+      "comment": "타란티노 작품 깨는 중... 재밌었다 우마서먼 너무 멋있어!!!!!",
+      "rating": 4.5
+    },
+    {
+      "id": 234.56000944639644,
+      "userId": 1,
+      "movieId": "1",
+      "comment": "재밌어요!",
+      "rating": 3
+    }
+  ],
+  "movies": [
+    {
+      "id": 1,
+      "image": "/images/새벽저주.jpeg",
+      "subImg": "/images/새벽저주썸네일.jpeg",
+      "title": "새벽의 저주",
+      "year": 2004,
+      "country": "미국",
+      "rating": 3.7,
+      "runningTime": 100,
+      "genre": "공포/액션",
+      "grade": "청불",
+      "plot": "위스콘신주의 한 마을에 한 아침, 애나의 이웃이 그녀의 남자친구를 공격하고 애나는 간신히 목숨을 건져 달아난다. 좀비들이 거리를 배회하고 동네가 불타는 상황에서 애나는 쇼핑몰 안에 피신하며 작은 그룹에 속하게 된다. 좀비 무리로부터 그들 자신을 보호하고 또한, 인류 최후의 보루로서 함께 공존하기 위해 가능한 모든 자원을 사용하고 생존하기 위해 힘을 합친다."
+    },
+    {
+      "id": 2,
+      "image": "/images/델마루이.jpeg",
+      "title": "델마와 루이스",
+      "year": 1993,
+      "country": "미국",
+      "rating": 4,
+      "runningTime": 130
+    },
+    {
+      "id": 3,
+      "image": "/images/컨텍트.png",
+      "title": "컨택트",
+      "year": 2016,
+      "country": "미국",
+      "rating": 4,
+      "runningTime": 116
+    },
+    {
+      "id": 4,
+      "image": "/images/불량모모.jpeg",
+      "title": "불량공주 모모코",
+      "year": 2005,
+      "country": "일본",
+      "rating": 3.5,
+      "runningTime": 102
+    },
+    {
+      "id": 5,
+      "image": "/images/펄프.jpeg",
+      "title": "펄프 픽션",
+      "year": 1994,
+      "country": "미국",
+      "rating": 4,
+      "runningTime": 154
+    },
+    {
+      "id": 6,
+      "image": "/images/펄프.jpeg",
+      "title": "인터스텔라",
+      "year": 2014,
+      "country": "미국, 영국",
+      "rating": 4.6,
+      "runningTime": 169,
+      "genre": "SF, 드라마",
+      "grade": "12세 이상 관람가",
+      "plot": "인류의 미래를 위해 우주로 떠나는 탐험가들의 이야기"
+    },
+    {
+      "id": 7,
+      "image": "/images/펄프.jpeg",
+      "title": "다크 나이트",
+      "year": 2008,
+      "country": "미국, 영국",
+      "rating": 4.5,
+      "runningTime": 152,
+      "genre": "액션, 범죄, 드라마",
+      "grade": "15세 이상 관람가",
+      "plot": "고담시의 악을 막아야 하는 배트맨의 이야기"
+    },
+    {
+      "id": 8,
+      "image": "/images/펄프.jpeg",
+      "title": "라라랜드",
+      "year": 2016,
+      "country": "미국",
+      "rating": 4.3,
+      "runningTime": 128,
+      "genre": "드라마, 뮤지컬, 로맨스",
+      "grade": "전체 관람가",
+      "plot": "미국 LA에서 만난 남녀의 로맨스"
+    },
+    {
+      "id": 9,
+      "image": "/images/펄프.jpeg",
+      "title": "매트릭스",
+      "year": 1999,
+      "country": "미국, 호주",
+      "rating": 4.4,
+      "runningTime": 136,
+      "genre": "액션, SF",
+      "grade": "15세 이상 관람가",
+      "plot": "인류가 사는 세계가 가상 현실임을 깨닫게 되는 이야기"
+    },
+    {
+      "id": 10,
+      "image": "/images/펄프.jpeg",
+      "title": "위대한 쇼맨",
+      "year": 2017,
+      "country": "미국",
+      "rating": 4.2,
+      "runningTime": 105,
+      "genre": "드라마, 뮤지컬",
+      "grade": "전체 관람가",
+      "plot": "서커스를 꿈꾸는 남자의 이야기"
+    }
+  ]
+}
