@@ -8,6 +8,7 @@ import { Common } from "../../styles/common";
 import React, { forwardRef } from "react";
 import img from "../../images/tomato.png";
 const MainHeader = forwardRef((props, ref) => {
+  // main header랑 image header 여백 다름 수정 필요
   const dispatch = useDispatch();
   const isAuth = useSelector((state) => state.auth.isAuthenticated);
   const logoutHandler = () => {
