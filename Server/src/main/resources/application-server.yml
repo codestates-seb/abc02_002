@@ -1,0 +1,42 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/테이블명?serverTimezone=UTC&characterEncoding=UTF-8
+    username: 아이디
+    password: 비밀번호
+  jpa:
+    show-sql: true
+  logging:
+    level:
+      org:
+        springframework:
+          orm:
+            jpa: DEBUG
+  server:
+    servlet:
+      encoding:
+        force-response: true
+
+jwt:
+  key: ${JWT_SECRET_KEY}
+  access-token-expiration-minutes: 30
+  refresh-token-expiration-minutes: 420
+
+mail:
+  address:
+    admin: admin@gmail.com
+  smtp:
+    host: smtp.gmail.com
+    port: 587
+    username: ${EMAIL_USERNAME}
+    password: ${EMAIL_PASSWORD}
+    auth: true
+    starttls:
+      enable: true
+  subject:
+    member:
+      registration: Thank you for joining our site!
+  template:
+    name:
+      member:
+        join: email-registration-member
