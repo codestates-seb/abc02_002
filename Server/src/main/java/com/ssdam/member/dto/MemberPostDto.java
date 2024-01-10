@@ -2,9 +2,7 @@ package com.ssdam.member.dto;
 
 import lombok.Getter;
 
-import javax.validation.constraints.Email;
-import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.Pattern;
+import javax.validation.constraints.*;
 
 @Getter
 public class MemberPostDto {
@@ -21,5 +19,7 @@ public class MemberPostDto {
     private String password2;
 
     @NotBlank(message = "닉네임은 공백이 아니어야 합니다.")
+    @Pattern(regexp = "^[a-zA-Z0-9가-힣]{2,12}$",
+            message = "닉네임은 2~12글자 이내여야합니다.")
     private String nickname;
 }
