@@ -5,7 +5,7 @@
 <br>
   함께 플로깅을 할 사람을 모집하는 플로깅 커뮤니티 사이트입니다. </h3>
 <p align="center">  
-  <em> * 플로깅(Plogging)은 '줍다'라는 뜻의 스웨덴어 플로카 업(plocka up)과</em>
+  <em> * 플로깅(Plogging)은 '줍다'라는 뜻의 스웨덴어 플로카 업(plocka upp)과</em>
 <br>
   <em>'달리다'라는 뜻의 영어 조깅(Jogging)을 합성한 단어로,</em>
 <br>
@@ -16,7 +16,7 @@
 ## 🚩 개요
 - 프로젝트 이름 : 쓰담 (SSUDAM)
 - 프로젝트 기간 : 2023.12.22 ~ 2024.01.23
-- 배포주소 : [쓰담✨](http://ssdam.s3-website.ap-northeast-2.amazonaws.com/)
+- 배포주소 : [쓰담✨](https://github.com/codestates-seb/abc02_002)
 
 <br><br>
 
